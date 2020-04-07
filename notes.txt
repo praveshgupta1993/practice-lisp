@@ -1,4 +1,6 @@
-sbcl --load practice-concordia-sbcl.lisp
+sbcl --noinform --load practice-concordia-sbcl.lisp
+
+sbcl --noinform --load assignment-lisp-sbcl.lisp
 
 --noinform
 Suppress the printing of any banner or other informational message at startup.
